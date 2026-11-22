@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100..900&display=swap');
+
+*{
+	margin: 0px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.site-header {
+    padding: 5px 40px;
+    background-color: white;
+    border-bottom: 1px solid #eeeeee;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #222;
+	text-decoration: none;
+
+}
+
+.logo span {
+    color: purple;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-links a {
+    color: #555;
+    font-size: 14px;
+    font-weight: 500;
+    transition: color 0.2s ease;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: purple;
+}
+
+
+
+/*  font-family: 'Poppins', sans-serif;
+  font-weight: 300;*/
+
+li{
+	list-style-type: none;
+}
+
+.nav-links{
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+
+.primary-button {
+    background-color: purple;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+
+}
+
+.primary-button:hover {
+    background-color: white;
+    color: purple;
+    border: solid purple 1px ;
+}
+
+.secondary-button{
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 10px;
+	background-color: white;
+}
+
+.hero{
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.popular{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 20px 100px;
+	gap: 20px;
+}
+
+.cards{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 20px;
+
+}
+
+
+.card{
+	padding: 10px;
+	border: 1px solid grey;
+	border-radius: 20px;
+}
+
+.download-details{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.demo{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+		align-items: center;
+	gap: 10px;
+	margin: 20px 100px;
+}
+
+.content-layout {
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+    max-width: 1400px;
+    margin: 30px auto;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+.content-layout aside {
+    width: 180px;
+    flex-shrink: 0;
+    padding: 20px;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+.content-layout aside .links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0;
+
+}
+
+.content-layout aside .links a {
+    display: block;
+    color: #555;
+    padding: 10px;
+    border-radius: 8px;
+    transition: 0.2s;
+        text-decoration: none;
+}
+
+.content-layout aside .links a:hover {
+    background-color: #e9e9ff;
+    color: #6366f1;
+}
+
+.content-layout > div {
+    flex: 1;
+    min-width: 0;
+}
+
+.content-layout .popular {
+    margin: 20px 0;
+    min-width: 0;
+}
+
+
+
+.advertisement{
+	display: flex;
+	gap: 100px;
+	align-items: center;
+	justify-content: center;
+}
+
+figure img{
+	border-radius: 100%;
+	height: 400px;
+}
+
+
+footer{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
